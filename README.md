@@ -139,3 +139,7 @@ The dashboard helps decision-makers quickly understand sales performance, custom
 
 ✅ Completed
 
+---
+
+## 📌 Screenshot
+![Dashboard Review](https://github.com/vaishubokare28/FUTURE_DS_01/blob/main/E-commerce%20Sales%20Report.png)
