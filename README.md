@@ -1,4 +1,4 @@
-# 📊 Business Sales Dashboard from E-Commerce Data
+# 📊 E-Commerce Business Sales Dashboard
 
 **Data Science & Analytics Task 1 – Future Interns**
 
@@ -6,61 +6,59 @@
 
 ## 📌 Project Overview
 
-This project focuses on analyzing real-world **e-commerce sales data** to extract meaningful business insights and present them through an **interactive Power BI dashboard**.
-The dashboard helps decision-makers quickly understand sales performance, customer behavior, product trends, and regional revenue distribution.
+This project analyzes real-world e-commerce sales data to extract actionable business insights and present them through an **interactive Power BI dashboard**. The dashboard enables business stakeholders to understand sales performance, customer behavior, product trends, and revenue distribution across countries at a glance.
 
 ---
 
 ## 🎯 Objectives
 
-* Identify **best-selling products** and high-revenue categories
+* Identify **best-selling products** and **high-revenue categories**
 * Analyze **monthly and yearly sales trends**
 * Discover **top-performing countries**
-* Evaluate **order volume vs revenue patterns**
-* Build a **management-ready dashboard** for business decisions
+* Evaluate **order volume vs. revenue patterns**
+* Build a **management-ready dashboard** for data-driven decision-making
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-* Power BI Desktop
-* Microsoft Excel
-* DAX (Data Analysis Expressions)
+* **Power BI Desktop** – For building interactive dashboards
+* **Microsoft Excel** – Data cleaning and preprocessing
+* **DAX (Data Analysis Expressions)** – For calculating KPIs and measures
 
 ---
 
 ## 📁 Dataset
 
-* **Online Retail II Dataset (Kaggle)**
-* Over **500,000 transactions** from a UK-based online retailer
-* Format: CSV / Excel
-* 🔗 **Dataset Link:**
-  [https://www.kaggle.com/datasets/mathchi/online-retail-ii-data-set-from-ml-repository](https://www.kaggle.com/datasets/mathchi/online-retail-ii-data-set-from-ml-repository)
+* **Source:** Online Retail II Dataset (Kaggle)
+* **Size:** 500,000+ transactions from a UK-based online retailer
+* **Format:** CSV / Excel
+* **Link:** [Kaggle – Online Retail II Dataset](https://www.kaggle.com/datasets/mathchi/online-retail-ii-data-set-from-ml-repository)
 
 ---
 
 ## 📊 Dashboard Components
 
-### 🔑 KPI Cards (Business Snapshot)
+### 🔑 KPI Cards – Business Snapshot
 
-* 💰 Total Revenue
-* 🛒 Total Orders
-* 📦 Total Quantity Sold
-* 👥 Total Customers
-* 💡 Average Order Value
+* Total Revenue
+* Total Orders
+* Total Quantity Sold
+* Total Customers
+* Average Order Value
 
-> Provides an instant overview of overall business performance.
+Gives an **instant overview of overall business performance**.
 
 ---
 
 ### 📈 Monthly Sales Trend
 
 * **Visual:** Line Chart
-* **X-axis:** Month Name
+* **X-axis:** Month
 * **Y-axis:** Total Revenue
 * **Legend:** Year
 
-> Highlights seasonality, growth patterns, and peak sales months.
+Shows **seasonal trends, growth patterns, and peak sales months**.
 
 ---
 
@@ -70,17 +68,16 @@ The dashboard helps decision-makers quickly understand sales performance, custom
 * **X-axis:** Total Revenue
 * **Y-axis:** Product Description
 
-> Identifies the most profitable products driving revenue.
+Highlights the **most profitable products** driving revenue.
 
 ---
 
 ### 🌍 Sales by Country
 
 * **Visual:** Map (Bubble/Filled)
-* **Location:** Country
 * **Size:** Total Revenue
 
-> Shows high-performing regions and international sales distribution.
+Identifies **high-performing regions** and international sales distribution.
 
 ---
 
@@ -89,19 +86,17 @@ The dashboard helps decision-makers quickly understand sales performance, custom
 * **Visual:** Combo Chart
 * **Columns:** Total Orders
 * **Line:** Total Revenue
-* **X-axis:** Month Name
 
-> Analyzes whether high order volumes are resulting in low revenue (e.g., due to discounts).
+Analyzes whether **high order volumes translate into revenue** or if discounts/pricing strategies impact profitability.
 
 ---
 
 ### 🍩 Revenue Contribution by Country
 
 * **Visual:** Donut / Pie Chart
-* **Legend:** Country
 * **Values:** Total Revenue
 
-> Reveals which markets dominate total sales.
+Shows **market-wise contribution to overall revenue**.
 
 ---
 
@@ -109,10 +104,10 @@ The dashboard helps decision-makers quickly understand sales performance, custom
 
 * Year
 * Country
-* Month Name
-* Product Descriptions
+* Month
+* Product Description
 
-> Allows users to dynamically explore data across multiple dimensions.
+Enables **dynamic exploration of the dataset** across multiple dimensions.
 
 ---
 
@@ -120,8 +115,8 @@ The dashboard helps decision-makers quickly understand sales performance, custom
 
 * Identified **top revenue-generating products**
 * Discovered **seasonal sales peaks**
-* Highlighted **countries contributing the highest revenue**
-* Found months with **high order volume but low revenue**, indicating pricing or discount effects
+* Highlighted **countries contributing the most revenue**
+* Found **months with high order volume but low revenue**, signaling discount or pricing effects
 
 ---
 
@@ -136,4 +131,5 @@ The dashboard helps decision-makers quickly understand sales performance, custom
 ---
 
 ## 📌 Screenshot
+
 ![Dashboard Review](https://github.com/vaishubokare28/FUTURE_DS_01/blob/main/E-commerce%20Sales%20Report.png)
