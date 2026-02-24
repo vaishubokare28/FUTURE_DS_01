@@ -130,6 +130,6 @@ Enables **dynamic exploration of the dataset** across multiple dimensions.
 
 ---
 
-## 📌 Screenshot
+## 📌 Dashboard
 
 ![Dashboard Review](https://github.com/vaishubokare28/FUTURE_DS_01/blob/main/E-commerce%20Sales%20Report.png)
